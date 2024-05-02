@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SorteiaNumeros</string>
+    <string name="textField_numero">01</string>
+    <string name="textField_s1">01</string>
+    <string name="textField_s2">02</string>
+    <string name="textField_s3">03</string>
+    <string name="textField_s4">04</string>
+    <string name="textField_s5">05</string>
+    <string name="textField_s6">06</string>
+    <string name="textField_registros">Registros</string>
+    <string name="btn_number1">N1</string>
+    <string name="btn_number2">N2</string>
+    <string name="btn_number3">N3</string>
+    <string name="btn_number4">N4</string>
+    <string name="btn_number5">N5</string>
+    <string name="btn_number6">N6</string>
+</resources>

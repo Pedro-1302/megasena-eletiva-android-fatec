@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textField_numero"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:text="@string/textField_numero"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="@drawable/estrela"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        >
+        <TextView
+            android:id="@+id/textField_s1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s1"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/textField_s2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s2"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textField_s3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s3"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textField_s4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s4"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textField_s5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s5"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textField_s6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:text="@string/textField_s6"
+            android:gravity="center"
+            android:background="@drawable/rounded_card"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

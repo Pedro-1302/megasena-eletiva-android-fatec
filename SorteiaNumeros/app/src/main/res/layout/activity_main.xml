@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView_pig"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/moneypig"
+            android:layout_weight="1"
+            />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_change_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow_escuro"
+            android:text="@string/textField_registros"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/genNumber1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number1"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/genNumber2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number2"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/genNumber3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number3"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/genNumber4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/genNumber5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number5"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/genNumber6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_number6"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity"
+        android:layout_weight="2"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/genButton"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:text="Sortear Números"
+            android:textSize="22dp"
+            android:backgroundTint="@color/yellow_escuro"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>
